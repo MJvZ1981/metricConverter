@@ -46,6 +46,7 @@ const metric = {
 
 convert.addEventListener('click', () => {
     number = Number(input.value)
+    input.value = '';
     render()
 })
 

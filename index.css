@@ -1,84 +1,85 @@
 body {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
 }
 
 .background {
-    background: black;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  background: black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .head {
-    background: #6943fe;
-    color: white;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    min-width: 550px;
-    min-height: 250px;
-    padding: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-left: 5px solid silver;
-    border-right: 5px solid silver;
-    border-top: 5px solid silver;
+  background: #6943fe;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 550px;
+  min-height: 250px;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-left: 5px solid silver;
+  border-right: 5px solid silver;
+  border-top: 5px solid silver;
 }
 
 .main {
-    background: #1F2937;
-    min-width: 550px;
-    padding: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-left: 5px solid silver;
-    border-right: 5px solid silver;
-    border-bottom: 5px solid silver;
+  background: #1f2937;
+  min-width: 550px;
+  padding: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: 5px solid silver;
+  border-right: 5px solid silver;
+  border-bottom: 5px solid silver;
 }
 
 input {
-    width: 120px;
-    text-align: center;
-    padding: 10px 0px;
-    background: #6943fe;
-    border: 2px solid #B295FF;
-    color: white;
-    font-weight: bold;
-    font-size: 50px;
-    border-radius: 6px;
-    margin-top: 20px;
+  width: 120px;
+  text-align: center;
+  padding: 10px 0px;
+  background: #6943fe;
+  border: 2px solid #b295ff;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  border-radius: 6px;
+  margin-top: 20px;
 }
 
 input::placeholder {
-    color: white;
+  color: gray;
 }
 
 button {
-    width: 120px;
-    font-weight: bold;
-    padding: 10px 0px;
-    background: white;
-    border: none;
-    border-radius: 6px;
-    margin-top: 20px;
+  width: 120px;
+  font-weight: bold;
+  padding: 10px 0px;
+  background: white;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
 }
 
-
-.section-m, .section-l, .section-kg {
-    background: #273549;
-    padding: 5px;
-    margin-bottom: 10px;
-    margin: 20px;
+.section-m,
+.section-l,
+.section-kg {
+  background: #273549;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin: 20px;
 }
 
 h3 {
-    color: #CCC1FF;
+  color: #ccc1ff;
 }
 
 p {
-    color: whitesmoke;
+  color: whitesmoke;
 }
